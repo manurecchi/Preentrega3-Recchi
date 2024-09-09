@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-   
+    <title>Ruleta de Casino</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Simulador de costos</h1>
+    <div class="container">
+        <h1>Ruleta de Casino</h1>
+        <p>Selecciona los números (poner con comas):</p>
+        <p>Valor de la ficha: $1</p>
+        <input type="text" id="numerosSeleccionados" placeholder="Ej: 1, 5, 12">
+        <button id="girar">Girar Ruleta</button>
+        <p id="resultado"></p>
+        <p id="mensaje"></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
